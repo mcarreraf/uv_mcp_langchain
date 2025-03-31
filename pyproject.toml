@@ -1,0 +1,17 @@
+[project]
+name = "uv-mcp-langchain-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-google-genai>=2.1.2",
+    "langchain-groq>=0.3.1",
+    "langchain-mcp-adapters>=0.0.3",
+    "langchain-ollama>=0.3.0",
+    "langgraph>=0.3.21",
+    "mcp[cli]>=1.6.0",
+    "ollama>=0.4.7",
+    "smithery>=0.1.1",
+]
